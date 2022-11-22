@@ -1,2 +1,218 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Rakkas&display=swap');
 
+/* правило меняющее расчёт размеров для всех элементов и псевдоэлементов */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1240px;
+    font-family: 'Rakkas', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: 3F403F;
+    background-color: #DFFEF1;
+    /* background-image: url("../images/background_leaves.png"); */
+    background-repeat: repeat-y;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.header {
+    margin: 0 auto;
+    padding: 30px 0px 70px 0px;
+}
+
+.navigation_list, .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0 45px;
+    list-style-type: none;
+  }
+  
+  .navigation_link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .person-name {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: regular;
+    text-align: right;
+  }
+
+.title {
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.logo {
+    padding: 30px;
+    /* padding-left: 0; */
+    justify-content: space-around;
+  }
+
+.logo_image {
+    /* padding-right: 190px; */
+}
+
+.slogan {
+    text-align: center;
+}
+
+.first_about {
+    width: 490px;
+    height: 550px;
+    z-index: 100;
+    position: absolute;
+    margin-bottom: 150px;
+}
+
+.photo_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.photo {
+    border-radius: 0 45% 0 0;
+}
+
+.right-side-text {
+    width: 490px;
+    height: 350px;
+    margin: 150px 0 0 auto;
+    text-align: right;
+}
+
+.left-side-text {
+  width: 440px;
+  height: 550px;
+  margin: 100px auto 0 0;
+  text-align: left;
+}
+
+.education {
+  width: 640px;
+  height: 700px;
+  /* border: 1px solid none; */
+  border-radius: 0 50% 0 50%;
+  /* background-color: #79FF64; */
+  box-shadow: 0 0 35px 10px rgba(0,0,0,0.2);
+  margin-bottom: 300px;
+}
+
+.subtitle {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 24px;
+  font-weight: medium;
+  padding-left: 18px;
+  padding-top: 55px;
+  padding-bottom: 10px;
+  padding-left: 95px;
+}
+
+.edu-div {
+  margin: 0 auto;
+}
+
+.edu-table {
+  width: 500px;
+  border-spacing: 17px 30px;
+  margin: 0 auto;
+}
+
+td.edu-type {
+  text-align: left;
+  vertical-align: top; 
+}
+
+.programs {
+  box-shadow: 0 0 35px 10px rgba(0,0,0,0.2);
+  border-radius: 0 250px 0 250px;
+  width: 1240px;
+  height: 300px;
+  margin-bottom: 250px;
+}
+
+.ikons {
+  margin: 0 100px 0 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.i-work {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 24px;
+  padding-top: 70px;
+  padding-left: 85px;
+  margin-bottom: 15px;
+}
+
+.options {
+  width: 600px;
+  height: 960px;
+  border-radius: 0 250px 0 250px;
+  box-shadow: 0 0 35px 10px rgba(0,0,0,0.2);
+  margin: 0 0 150px auto;
+  
+}
+
+.choices-table {
+  width: 500px;
+  border-spacing: 17px 20px;
+  margin: 0 auto 0 75px;
+}
+
+td.choice-type {
+  text-align: left;
+  vertical-align: top; 
+  width: 150px;
+}
+
+td ul li {
+  list-style-type: none;
+}
+
+.portfolio {
+  margin-bottom: 275px;
+}
+
+.summary {
+  width: 560px;
+}
+
+.button {
+  border: none;
+  background-color: #D9FFD3;
+  box-shadow: 0 0 35px 10px rgba(0,0,0,0.2);
+  width: 440px;
+  height: 100px;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: medium;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.portfolio-button {
+  display: flex;
+  justify-content: center;
+}
